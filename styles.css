@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+}
+
+.header {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header img {
+    display: block;
+    margin: auto;
+}
+
+.header p {
+    padding: 0 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+    justify-content:center;
+    display: flex;
+
+}
+
+.side_item {
+    max-width: 15%;
+    text-align: justify;
+    padding: 0 30px;
+    
+}
+
+h1 .side_item {
+    padding-top: 0;
+}
+
+.main_articles {
+    max-width: 85%;
+}
+
+.main_article img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.secondary_article-text {
+    display: flex;
+}
+
+.secondary_article-text p {
+    max-width: 40%;
+    display: block;
+}
+.secondary_article-text span {
+    padding: 10px;
+}
+
+.secondary_article-text img {
+    min-width: 60%;
+}
